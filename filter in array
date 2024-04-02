@@ -1,0 +1,18 @@
+//This is Filter Method in a Array
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        var arr1=[23,30,49,50,60,78,89]
+        var arr2=arr1.filter((value)=>{
+            return value >50
+        })
+        document.write(arr2)
+    </Script>
+</body>
+</html>
